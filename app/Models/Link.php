@@ -17,6 +17,7 @@ class Link extends Model
         'customize',
         'description',
         'expire_date',
+        'total_click',
     ];
 
     protected static function boot()
@@ -47,7 +48,7 @@ class Link extends Model
     }
     public function setUserId()
     {
-        $this->attributes['user_id'] =  auth()->user()->id;
+        $this->attributes['user_id'] =  auth()->user()->id ?? 1;
     }
     public function getShortLinkAttribute($value): string
     {

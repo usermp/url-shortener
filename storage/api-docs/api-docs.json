@@ -1,0 +1,14 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "URL Shortener API",
+        "description": "A URL Shortener API",
+        "contact": {
+            "email": "usermp76@gmail.com"
+        },
+        "version": "1.0"
+    },
+    "paths": {
+        "/api": {}
+    }
+}

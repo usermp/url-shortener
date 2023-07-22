@@ -10,7 +10,7 @@ use Illuminate\Routing\Controller as BaseController;
  * @OA\Info(
  *      version="1.0",
  *      title="URL Shortener API",
- *      description="A URL Shortener API project built using Laravel.",
+ *      description="A URL Shortener API",
  *      @OA\Contact(
  *          email="usermp76@gmail.com"
  *      ),
