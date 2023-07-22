@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers\Api;
 
-use App\Http\Constants\Crud;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\StoreLinkRequest;
 use App\Http\Requests\UpdateLinkRequest;
+use App\Http\Services\Crud;
 use App\Models\Link;
 use Illuminate\Http\JsonResponse;
 

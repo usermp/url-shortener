@@ -1,7 +1,8 @@
 <?php
 
-namespace App\Http\Constants;
+namespace App\Http\Services;
 
+use App\Http\Constants\Constants;
 use App\Http\Services\Response;
 use Illuminate\Http\JsonResponse;
 

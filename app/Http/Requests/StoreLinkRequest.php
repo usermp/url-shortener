@@ -23,7 +23,6 @@ class StoreLinkRequest extends FormRequest
     {
         return [
             'link'        => 'required|url',
-            'short_link'  => 'required|string',
             'status'      => 'required|in:active,inactive', // Define valid status values
             'description' => 'nullable|string',
             'expire_date' => 'nullable|date',

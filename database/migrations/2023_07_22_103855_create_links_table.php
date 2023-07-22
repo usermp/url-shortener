@@ -19,6 +19,7 @@ return new class extends Migration
             $table->text('description')->nullable();
             $table->timestamp('expire_date')->nullable();
             $table->timestamps();
+            $table->softDeletes();
             $table->unsignedBigInteger('user_id')->index(); // Assuming user_id is a foreign key
         });
     }
