@@ -12,7 +12,4 @@ class Constants
     const ERROR_UPDATE = "Update Error";
     const ERROR_STORE = "Store Error";
     const ERROR_DELETE = "Delete Error";
-
-    const SUCCESS_LOGIN = "Login successful. Welcome to the system!";
-    const ERROR_LOGIN   = "Invalid credentials. The provided username or password does not match our records.";
 }
