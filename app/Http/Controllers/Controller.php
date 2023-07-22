@@ -6,6 +6,17 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
 
+/**
+ * @OA\Info(
+ *      version="1.0",
+ *      title="URL Shortener API",
+ *      description="A URL Shortener API project built using Laravel.",
+ *      @OA\Contact(
+ *          email="usermp76@gmail.com"
+ *      ),
+ * )
+ * @OA\PathItem(path="/api")
+ */
 class Controller extends BaseController
 {
     use AuthorizesRequests, ValidatesRequests;
